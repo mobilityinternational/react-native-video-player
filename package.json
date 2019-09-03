@@ -21,8 +21,7 @@
     "react": "*",
     "react-native": "*",
     "react-native-vector-icons": "^6.4.2",
-    "react-native-video": "^4.4.2",
-    "react-native-orientation": "https://github.com/yamill/react-native-orientation.git"
+    "react-native-video": "^4.4.2"
   },
   "devDependencies": {
     "eslint": "^3.4.0",
