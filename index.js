@@ -389,7 +389,7 @@ export default class VideoPlayer extends Component {
       >
         <View
           style={[
-            { flexGrow: this.state.progress },
+            !disableSeek && { flexGrow: this.state.progress },
             styles.seekBarProgress,
             customStyles.seekBarProgress,
           ]}
