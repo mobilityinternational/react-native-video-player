@@ -413,7 +413,7 @@ export default class VideoPlayer extends Component {
         ) : null }
         <View style={[
           styles.seekBarBackground,
-          { flexGrow: 1 - this.state.progress },
+         !disableSeek && { flexGrow: 1 - this.state.progress },
           customStyles.seekBarBackground,
         ]} />
       </View>
